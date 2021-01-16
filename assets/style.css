@@ -1,0 +1,74 @@
+body {
+    font-weight: 200;
+    font-size: 1.5rem;
+    color: #444
+    
+}
+
+.intro-left {
+    background: url(assets/images/homebody1.JPG);
+}
+
+.col-md-8 {
+    width: 50%;
+}
+.nav {
+    background-color: grey;
+    font-size: larger;
+    font-weight: bold;
+    color: black;
+}
+
+.portfolioImages {
+    max-width: 100%;
+    height: auto;
+    padding: 3%;
+}
+
+p {
+    padding: 1%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.font-weight-normal {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-style: italic;
+}
+
+.col-md-12 {
+    width: 50%;
+}
+.indent {
+    padding-left: 30px;
+}
+
+.fa {
+        padding: 1px;
+        font-size: 30px;
+        width: 50px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+}
+
+.social {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1px;
+    width: 50px;
+    height: 40px;
+}
+
+h7, h1 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.images {
+    width:"350";
+    height: auto;
+}
+@media screen and (max-width: 600px) {
+    body {
+    column-width: 100%;}
+}        

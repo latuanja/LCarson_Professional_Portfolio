@@ -16,6 +16,7 @@ body {
     background-color: grey;
     font-size: larger;
     font-weight: bold;
+    float: right;
     color: black;
 }
 
@@ -43,7 +44,7 @@ p {
     padding-left: 30px;
 }
 
-.fa {
+.fa fa-instagram {
         padding: 1px;
         font-size: 30px;
         width: 50px;
@@ -58,6 +59,11 @@ p {
     padding: 1px;
     width: 50px;
     height: 40px;
+}
+
+.follow {
+    font-size: 30px;
+    font-weight: bold;
 }
 
 h7, h1 {

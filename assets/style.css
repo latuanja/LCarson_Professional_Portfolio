@@ -26,10 +26,13 @@ body {
     padding: 3%;
 }
 
-p {
+.para {
     padding: 1%;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Playfair Display', serif;
+    font-size:large;
+    font-weight: 500;
 }
+
 
 .font-weight-normal {
     font-family: 'Times New Roman', Times, serif;

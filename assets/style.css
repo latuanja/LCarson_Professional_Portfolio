@@ -1,10 +1,16 @@
-body {
-    font-weight: 200;
-    font-size: 1.5rem;
-    background-image: url(assets/Cool-background.jpg);
-    
+body, html {
+    font-weight: 200; 
+    height: 100%;  
+    background-image: url(assets/cool_background.jpg);
 }
 
+.bg {
+    background-image: url("cool_background.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .intro-left {
     background: url(assets/images/homebody1.JPG);
 }
@@ -33,14 +39,15 @@ body {
 .para {
     padding: 1%;
     font-family: 'Playfair Display', serif;
-    font-size:large;
+    font-size:larger;
     font-weight: 500;
 }
 
 .card {
-    margin: 0 auto; /* Added */
-    float: none; /* Added */
-    margin-bottom: 10px; /* Added */
+    margin: 0 auto; 
+    float: center; 
+    margin-bottom: 1
+    padding: 15px;
 }
 
 .font-weight-normal {
@@ -106,6 +113,10 @@ h7, h1 {
 .screenshot {
     width: 400px;
     height: 280px;
+}
+
+.resume {
+    padding: 30px;
 }
 
 .footer-copyright {

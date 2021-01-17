@@ -77,6 +77,10 @@ h7, h1 {
     width:"350";
     height: auto;
 }
+
+.footer-copyright {
+    font-size: small;
+}
 @media screen and (max-width: 600px) {
     body {
     column-width: 100%;}

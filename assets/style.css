@@ -1,7 +1,7 @@
 body {
     font-weight: 200;
     font-size: 1.5rem;
-    color: #444
+    background-image: url(assets/Cool-background.jpg);
     
 }
 
@@ -16,8 +16,12 @@ body {
     background-color: grey;
     font-size: larger;
     font-weight: bold;
-    float: right;
+    float: center;
     color: black;
+}
+
+.col {
+    text-align: center;
 }
 
 .portfolioImages {
@@ -33,11 +37,10 @@ body {
     font-weight: 500;
 }
 
-.card-body {
-    text-align: center;
-}
-
-
+.card {
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
 }
 
 .font-weight-normal {
@@ -49,11 +52,13 @@ body {
 .col-md-12 {
     width: 50%;
 }
+
 .indent {
     padding-left: 30px;
 }
 
 .button {
+    align-items: center;
     background-color: #008CBA;
     border: none;
     color: white;
@@ -66,6 +71,7 @@ body {
     transition-duration: 0.4s;
     cursor: pointer;
   }
+
 .fa fa-instagram {
         padding: 1px;
         font-size: 30px;
@@ -98,13 +104,14 @@ h7, h1 {
 }
 
 .screenshot {
-    width: 350px;
+    width: 400px;
     height: 280px;
 }
 
 .footer-copyright {
     font-size: small;
 }
+
 @media screen and (max-width: 600px) {
     body {
     column-width: 100%;}

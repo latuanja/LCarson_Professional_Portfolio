@@ -1,7 +1,7 @@
 body, html {
     font-weight: 200; 
     height: 100%;  
-    background-image: url(assets/cool_background.jpg);
+    background-image: url(cool_background.jpg);
 }
 
 .bg {
@@ -40,13 +40,13 @@ body, html {
     padding: 1%;
     font-family: 'Playfair Display', serif;
     font-size:larger;
-    font-weight: 500;
+    font-weight: 800;
 }
 
 .card {
     margin: 0 auto; 
     float: center; 
-    margin-bottom: 1
+    margin-bottom: 1;
     padding: 15px;
 }
 
@@ -65,7 +65,7 @@ body, html {
 }
 
 .button {
-    align-items: center;
+    position: relative;
     background-color: #008CBA;
     border: none;
     color: white;
